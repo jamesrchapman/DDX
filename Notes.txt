@@ -1,0 +1,24 @@
+Okay, well we have patients
+
+Class Patient:
+properties:
+Body information (as required to give test info)
+methods:
+Tests
+Treatments
+
+So, that's a cool idea, I guess first thing is a proof of concept, and then building models based on the data and trying to fill in the blanks on patient treatments and outcomes, right? 
+
+It could be interesting just to know what sort of things aren't really known or tried.. 
+
+
+So, what would we want for user interface? 
+
+Well I'd just to a pwa because that's the easiest thing. 
+
+Then the user selects from a variety of tests and treatments they'd like to apply to the patient (including waiting) and we see how the test results and treatments affect the patient and their conditions. 
+
+So, in order to achieve all of this I think we have to implement some relationship statistics, right? because we want to generate patients and their behaviors and physiology realistically. 
+
+Then I was thinking we could sort of run this process against itself to find gaps in knowledge, e.g. we don't know what happens when we apply x in situation a, and to find procedural behaviors that work very well, or to find recommendations for patient treatment in a vacuum. 
+
